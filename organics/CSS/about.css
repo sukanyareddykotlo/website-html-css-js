@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: clip;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.nav {
+    background-color: #590212;
+    width: 100%;
+    height: 34px;
+
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 5px 0px 0px 0px;
+    color: white;
+}
+
+.nav ul li i {
+    padding: 3px 10px 0px 0px;
+    font-size: 18px;
+}
+
+/* nav2 */
+
+.banner-2 {
+    background-color:white;
+    height: 50px;
+    width: 100%;
+}
+
+.navbar-2 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-2 ul li {
+    display: inline;
+    padding: 5px 0px 0px 0px;
+
+    font-size: 20px;
+}
+
+.navbar-2 ul li a {
+    list-style: none;
+    color: #161F30;
+    text-decoration: none;
+}
+.navbar-2 ul li a:hover
+{
+    color: #B22626;
+}
+.banner-2 img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    padding-top: 10px;
+}
+
+.title {
+    font-size: 38px;
+    color: #161F30;
+}
+
+.title span {
+    color: #590212;
+}
+/* banner */
+.machine {
+    background-image: url(../assests/images/abbg.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+   
+}
+.machine h1
+{
+    text-align: center;
+    color: white;
+   padding-top: 80px;
+   font-size: 60px;
+}
+.machine p
+{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+/* why choose */
+.grid-7
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.why-we
+{
+    width: 580px;
+    height: 350px;
+    
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.why-we h2
+{
+    font-size: 40px;
+    padding-top: 15px;
+}
+.why-we p
+{
+    font-size: 17px;
+    padding-top: 10px;
+}
+.why-we img
+{
+    width: 580px;
+    height: 350px;
+    object-fit: cover;
+}
+.methods i
+{
+    color: #B22626;
+}
+.methods span
+{
+    font-size: 17px;
+}
+
+/* history */
+.history
+{
+    width: 100%;
+    height: 280px;
+    background: #F1F1F1;
+    margin-top: 40px;
+}
+
+.grid-8
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 10%;
+    gap:20px;
+   
+
+}
+.our-history
+{
+    width: 360px;
+    height: 230px;
+    border: 0.25px solid maroon;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.our-history h1
+{
+   color: #B22626;
+    padding-top: 20px;
+    text-align: justify;
+}
+.our-history p
+{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 20px;
+    
+}
+
+/* our farmers */
+
+.our-farmers h5
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.our-farmers p
+{
+    text-align: center;
+    font-size: 17px;
+    color: grey;
+    margin-top: 20px;
+}
+.grid-9
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.farmers
+{
+    width: 250px;
+    height: 360px;
+  
+    margin: 40px 0px 0px 40px;
+}
+.farmers img
+{
+    width: 230px;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+}
+.farmers img:hover
+{
+    transform: scale(1.050);
+    cursor: grab;
+    opacity: 85%;
+}
+.farmers h3
+{
+    font-size: 25px;
+   padding-top: 5px;
+}
+.farmers .prof
+{
+    color: grey;
+    padding-top: 4px;
+    font-size: 17px;
+}
+.icons i
+{
+    width:9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #B22626;
+    color: white;
+    padding: 9px;
+    font-size: 12px;
+    margin: 10px 10px 0px 0px;
+}
+.icons i:hover
+{
+    background-color: #0099DD;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+#footer
+{
+   
+    background:#161F30;
+    width: 100%;
+    height: 490px;
+    margin-top: 90px;
+
+}
+.grid-6
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.footer-items
+{
+    width: 300px;
+    height: 330px;
+   
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.footer-items h1
+{
+    font-size: 30px;
+    color: white;
+}
+.footer-items p i
+{
+    color: #B22626;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.footer-items p span
+{
+    color:white;
+    font-size: 18px;
+}
+.social-media i
+{
+    font-size: 20px;
+    color: #F1F1F1;
+    padding: 20px 20px 0px 0px;
+}
+#links
+{
+    padding: 10px 0px 0px 0px;
+    color: white;
+    font-size: 18px;
+}
+.get-in-touch
+{
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+input
+{
+    width:240px;
+    height: 30px;
+    background: #F1F1F1;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#subscribe
+{
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+ .underline
+{
+    width: 100%;
+    height: 0.25px;
+    background-color: grey;
+    margin-top: 30px;
+}
+.rights
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: clip;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.nav {
+    background-color: #590212;
+    width: 100%;
+    height: 34px;
+
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 5px 0px 0px 0px;
+    color: white;
+}
+
+.nav ul li i {
+    padding: 3px 10px 0px 0px;
+    font-size: 18px;
+}
+
+/* nav2 */
+
+.banner-2 {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.navbar-2 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-2 ul li {
+    display: inline;
+    padding: 5px 0px 0px 0px;
+
+    font-size: 20px;
+}
+
+.navbar-2 ul li a {
+    list-style: none;
+    color: #161F30;
+    text-decoration: none;
+}
+
+.navbar-2 ul li a:hover {
+    color: #B22626;
+}
+
+.banner-2 img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    padding-top: 10px;
+}
+
+.title {
+    font-size: 38px;
+    color: #161F30;
+}
+
+.title span {
+    color: #590212;
+}
+/* banner */
+.contact {
+    background-image: url(../assests/images/cbg.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+
+}
+
+.contact h1 {
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    font-size: 60px;
+}
+
+.contact p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+/* form */
+.form
+{
+    background: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+form input
+{
+    width: 480px;
+    height: 50px;
+    margin: 30px 0px 0px 60px;
+    font-size: 17px;
+    background: #f1f1f1;
+    border: transparent;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+#area
+{
+    margin-left: 60px;
+    background: #f1f1f1;
+    border: transparent;
+    font-size: 17px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 4px;
+}
+button
+{
+    width: 100px;
+    height: 50px;
+    background: #B22626;
+    color: white;
+    border: transparent;
+    font-size: 17px;
+    border-radius: 4px;
+    margin: 30px 0px 0px 60px;
+    cursor: pointer;
+}
+
+/* address */
+
+.grid-13
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 10%;
+}
+.address
+{
+    width: 360px;
+    height: 120px;
+    background:#B22626;
+    margin: 120px 0px 0px 50px;
+    border-radius: 5px;
+}
+.address i
+{
+    background: white;
+    color:#B22626;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 30px 0px 0px 30px;
+   
+}
+.address span
+{
+    color: white;
+    font-size: 20px;
+}
+
+/* maps */
+
+.maps
+{
+   
+    margin-top: 40px;
+}
+
+
+
+/* footer */
+
+#footer
+{
+   
+    background:#161F30;
+    width: 100%;
+    height: 490px;
+    margin-top: 50px;
+
+}
+.grid-6
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.footer-items
+{
+    width: 300px;
+    height: 330px;
+   
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.footer-items h1
+{
+    font-size: 30px;
+    color: white;
+}
+.footer-items p i
+{
+    color: #B22626;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.footer-items p span
+{
+    color:white;
+    font-size: 18px;
+}
+.social-media i
+{
+    font-size: 20px;
+    color: #F1F1F1;
+    padding: 20px 20px 0px 0px;
+}
+#links
+{
+    padding: 10px 0px 0px 0px;
+    color: white;
+    font-size: 18px;
+}
+.get-in-touch
+{
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+input
+{
+    width:240px;
+    height: 30px;
+    background: #F1F1F1;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#subscribe
+{
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+ .underline
+{
+    width: 100%;
+    height: 0.25px;
+    background-color: grey;
+    margin-top: 30px;
+}
+.rights
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
